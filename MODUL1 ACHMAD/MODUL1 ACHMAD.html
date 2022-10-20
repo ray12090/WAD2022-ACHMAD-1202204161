@@ -1,217 +1,217 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Bootstrap Card</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-                list-style: none;
-                text-decoration: none;
-            }
-            .header {
-                width: 100%;
-                height: 80px;
-                display: block;
-                background-color: lightgray;
-            }
-            .inner_header {
-                width: 1000px;
-                height: 100%;
-                display: block;
-                margin: 0 auto;
-            }
-            .inner_header a:hover{
-                color: black;
-            }
-            .logo_container img{
-                height: 100%;
-                display: table;
-                float: left;
-                margin-top: 17px;
-            }
-            .navigation {
-                height: 100%;
-            }
-            .navigation a{
-                height: 100%;
-                display: table;
-                float: left;
-                padding: 0px 20px;
-            }
-            .navigation a li{
-                display: table-cell;
-                vertical-align: middle;
-                height: 100%;
-                color: rgb(75, 75, 75);
-            }
-            .body_home {
-                text-align: center;
-            }
-            .body_ttg_kami {
-                background-color: lightgrey;
-            }
-            .body_lks_kami {
-                text-align: center;
-            }
-            .column {
-                float: left;
-                width: 50%;
-                padding: 10px;
-                height: 300px;
-            }
-            .ttg_kami:after {
-                content: "";
-                display: table;
-                clear: both;
-                background-color: lightgrey;
-            }
-        </style>
-    </head>
-    <body>
-        <section class="header">
-            <section class="inner_header">
-                <section class="logo_container">
-                    <a href="#home"><img src="https://drive.google.com/uc?export=view&id=1hqBNDU1Tx1RKd8wzC1bmnhwBr-7YsK23" width="160px" height="40px"></a>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Bootstrap Card</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+            <style>
+                *{
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    text-decoration: none;
+                }
+                .header {
+                    width: 100%;
+                    height: 80px;
+                    display: block;
+                    background-color: lightgray;
+                }
+                .inner_header {
+                    width: 1000px;
+                    height: 100%;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .inner_header a:hover{
+                    color: black;
+                }
+                .logo_container img{
+                    height: 100%;
+                    display: table;
+                    float: left;
+                    margin-top: 17px;
+                }
+                .navigation {
+                    height: 100%;
+                }
+                .navigation a{
+                    height: 100%;
+                    display: table;
+                    float: left;
+                    padding: 0px 20px;
+                }
+                .navigation a li{
+                    display: table-cell;
+                    vertical-align: middle;
+                    height: 100%;
+                    color: rgb(75, 75, 75);
+                }
+                .body_home {
+                    text-align: center;
+                }
+                .body_ttg_kami {
+                    background-color: lightgrey;
+                }
+                .body_lks_kami {
+                    text-align: center;
+                }
+                .column {
+                    float: left;
+                    width: 50%;
+                    padding: 10px;
+                    height: 300px;
+                }
+                .ttg_kami:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                    background-color: lightgrey;
+                }
+            </style>
+        </head>
+        <body>
+            <section class="header">
+                <section class="inner_header">
+                    <section class="logo_container">
+                        <a href="#home"><img src="https://drive.google.com/uc?export=view&id=1hqBNDU1Tx1RKd8wzC1bmnhwBr-7YsK23" width="160px" height="40px"></a>
+                    </section>
+                    <ul class="navigation">
+                        <a href="#ttgkami"><li>Tentang kami</li></a>
+                        <a href="#lkskami"><li>Lokasi kami</li></a>
+                        <a href="#jnsmobil"><li>Jenis mobil</li></a>
+                        <a href="#reserve"><li>Daftar reservasi</li></a>
+                    </ul>
                 </section>
-                <ul class="navigation">
-                    <a href="#ttgkami"><li>Tentang kami</li></a>
-                    <a href="#lkskami"><li>Lokasi kami</li></a>
-                    <a href="#jnsmobil"><li>Jenis mobil</li></a>
-                    <a href="#reserve"><li>Daftar reservasi</li></a>
-                </ul>
             </section>
-        </section>
-        <section id="home" class="body_home">
-            <br>
-            <h1>Reservasi Kendaraan EAD</h1>
-            <p>Video EAD</p>
-            <iframe width="480" height="360" src="https://www.youtube.com/embed/AwMeQJ_u73I" title="Enterprise Application Development Laboratory Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <br><br>
-        </section>
-        <h1 id="ttgkami" style="text-align: center;">Tentang Kami</h1>
-        <section class="ttg_kami">
-            <div class="column" style="text-align: justify;">
-                <p>Rental EAD resmi diluncurkan pada tanggal 15 Oktober 2022 yang merupakan anak perusahaan dari PT Enterprise Application Development. Rental EAD hadir untuk memecahkan permasalahan yang banyak ditemui saat mencari rental mobil di Indonesia seperti harga yang mahal, kesulitan dalam pemesanan.</p>
-            </div>
-            <div class="column" style="text-align: justify">
-                <p>Rental EAD merupakan sebuah terobosan dalam industri rental mobil di Indonesia yang bertujuan untuk memudahkan para wisatawan yang singgah di kota-kota di Indonesia untuk mencari moda transportasi. Rental EAD memungkinkan pelanggan untuk menyewa langsung mobil yang diinginkan secara Real Time tanpa harus menelepon untuk menanyakan ketersediaan kendaraan.</p>
-            </div>
-        </section>
-        <section id="lkskami" class="body_lks_kami">
-            <h1>Lokasi Kami</h1>
-            <br>
-            <iframe width="480" height="360" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392.9136693815726!2d107.64384954911614!3d-6.971434071645742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9a4ca9aab15%3A0x4b991116ec4d9739!2skupu%20kupu%20laundry!5e0!3m2!1sen!2sid!4v1665747390093!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <br><br>
-        </section>
-        <h1 id="jnsmobil" style="text-align: center;">Jenis Mobil</h1>
-        <br>
-        <div class="card-group">
-            <div class="card">
-                <img class="card-img-top" src="https://static.wixstatic.com/media/12d253_895be52d4c7f44f3a74a81e5257a07c7~mv2.png/v1/fill/w_1405,h_728,al_c/12d253_895be52d4c7f44f3a74a81e5257a07c7~mv2.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">BRIO</h5>
-                    <p class="card-text">
-                        Automatic transition<br>
-                        Kursi 5 seater<br>
-                        Headunit touchscreen</p>
-                    <p style="font-weight: bold;">Rp 200.000/12 Jam</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="https://d2fgf7u961ce77.cloudfront.net/assets/static/img/variant/Burgundy-Red1.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">ERTIGA</h5>
-                    <p class="card-text">
-                        Automatic transition<br>
-                        Kursi 5 seater<br>
-                        Headunit touchscreen</p>
-                    <p style="font-weight: bold;">Rp 225.000/12 Jam</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="https://news.olx.co.id/wp-content/uploads/2021/10/30ff6591-29c8-40be-a561-f0aaf22b194d.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">JAZZ</h5>
-                    <p class="card-text">
-                        Automatic transition<br>
-                        Kursi 5 seater<br>
-                        Headunit touchscreen</p>
-                    <p style="font-weight: bold;">Rp 250.000/12 Jam</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="https://www.freepnglogos.com/uploads/fortuner-png/fortuner-gxl-automatic-melville-toyota-2.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">FORTUNER</h5>
-                    <p class="card-text">
-                        Automatic transition<br>
-                        Kursi 7 seater<br>
-                        Headunit touchscreen</p>
-                    <p style="font-weight: bold;">Rp 400.000/12 Jam</p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <h1 id="reserve" style="text-align: center;">Pemesanan Mobil</h1>
-        <section align="center">
-            <form>
-                <label for="email">Email:</label>
+            <section id="home" class="bodyhome">
                 <br>
-                <input type="text" id="email" name="email">
-                <br>
-                <label for="name">Nama Lengkap:</label>
-                <br>
-                <input type="text" id="name" name="name">
-                <br>
-                <label for="name">No HP:</label>
-                <br>
-                <input type="number" id="hp" name="hp">
-                <br>
-                <label for="name">Alamat Lengkap:</label>
-                <br>
-                <input type="text" id="alamat" name="alamat">
-                <br>
-                <label for="name">Jenis Mobil:</label>
-                <br>
-                <select id="mobil">
-                    <option value="brio">Brio</option>
-                    <option value="ertiga">Ertiga</option>
-                    <option value="jazz">Jazz</option>
-                    <option value="fortuner">Fortuner</option>
-                </select>
+                <h1>Reservasi Kendaraan EAD</h1>
+                <p>Video EAD</p>
+                <iframe width="480" height="360" src="https://www.youtube.com/embed/AwMeQJ_u73I" title="Enterprise Application Development Laboratory Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <br><br>
-                <input type="submit" value="Pesan">
-            </form>
+            </section>
+            <h1 id="ttgkami" style="text-align: center;">Tentang Kami</h1>
+            <section class="ttg_kami">
+                <div class="column" style="text-align: justify;">
+                    <p>Rental EAD resmi diluncurkan pada tanggal 15 Oktober 2022 yang merupakan anak perusahaan dari PT Enterprise Application Development. Rental EAD hadir untuk memecahkan permasalahan yang banyak ditemui saat mencari rental mobil di Indonesia seperti harga yang mahal, kesulitan dalam pemesanan.</p>
+                </div>
+                <div class="column" style="text-align: justify">
+                    <p>Rental EAD merupakan sebuah terobosan dalam industri rental mobil di Indonesia yang bertujuan untuk memudahkan para wisatawan yang singgah di kota-kota di Indonesia untuk mencari moda transportasi. Rental EAD memungkinkan pelanggan untuk menyewa langsung mobil yang diinginkan secara Real Time tanpa harus menelepon untuk menanyakan ketersediaan kendaraan.</p>
+                </div>
+            </section>
+            <section id="lkskami" class="body_lks_kami">
+                <h1>Lokasi Kami</h1>
+                <br>
+                <iframe width="480" height="360" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392.9136693815726!2d107.64384954911614!3d-6.971434071645742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9a4ca9aab15%3A0x4b991116ec4d9739!2skupu%20kupu%20laundry!5e0!3m2!1sen!2sid!4v1665747390093!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br>
+            </section>
+            <h1 id="jnsmobil" style="text-align: center;">Jenis Mobil</h1>
             <br>
-        </section>
-        <section class="container">
-            <div class="row justify-content-center">
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="background-color: lightgray; color: black; border-color: lightgray;">Copyright 2022 (Achmad Fahresya Rayhannur_1202204161_SI4408)</button>
-                <div class="modal fade" id="myModal" role="dialog">
-                    <div class="modal-dialog">        
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Achmad Fahresya Rayhannur<br>
-                                    1202204161<br>
-                                    SI4408</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wixstatic.com/media/12d253_895be52d4c7f44f3a74a81e5257a07c7~mv2.png/v1/fill/w_1405,h_728,al_c/12d253_895be52d4c7f44f3a74a81e5257a07c7~mv2.png" alt="Card image cap">
+                    <div class="card-footer">
+                        <h5 class="card-title">BRIO</h5>
+                        <p class="card-text">
+                            Automatic transition<br>
+                            Kursi 5 seater<br>
+                            Headunit touchscreen</p>
+                        <p style="font-weight: bold;">Rp 200.000/12 Jam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://d2fgf7u961ce77.cloudfront.net/assets/static/img/variant/Burgundy-Red1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">ERTIGA</h5>
+                        <p class="card-text">
+                            Automatic transition<br>
+                            Kursi 5 seater<br>
+                            Headunit touchscreen</p>
+                        <p style="font-weight: bold;">Rp 225.000/12 Jam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://news.olx.co.id/wp-content/uploads/2021/10/30ff6591-29c8-40be-a561-f0aaf22b194d.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">JAZZ</h5>
+                        <p class="card-text">
+                            Automatic transition<br>
+                            Kursi 5 seater<br>
+                            Headunit touchscreen</p>
+                        <p style="font-weight: bold;">Rp 250.000/12 Jam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://www.freepnglogos.com/uploads/fortuner-png/fortuner-gxl-automatic-melville-toyota-2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">FORTUNER</h5>
+                        <p class="card-text">
+                            Automatic transition<br>
+                            Kursi 7 seater<br>
+                            Headunit touchscreen</p>
+                        <p style="font-weight: bold;">Rp 400.000/12 Jam</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h1 id="reserve" style="text-align: center;">Pemesanan Mobil</h1>
+            <section align="center">
+                <form>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="text" id="email" name="email" disabled>
+                    <br>
+                    <label for="name">Nama Lengkap:</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="name">No HP:</label>
+                    <br>
+                    <input type="number" id="hp" name="hp">
+                    <br>
+                    <label for="name">Alamat Lengkap:</label>
+                    <br>
+                    <input type="text" id="alamat" name="alamat">
+                    <br>
+                    <label for="name">Jenis Mobil:</label>
+                    <br>
+                    <select id="mobil">
+                        <option value="brio">Brio</option>
+                        <option value="ertiga">Ertiga</option>
+                        <option value="jazz">Jazz</option>
+                        <option value="fortuner">Fortuner</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Pesan">
+                </form>
+                <br>
+            </section>
+            <section class="container">
+                <div class="row justify-content-center">
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="background-color: lightgray; color: black; border-color: lightgray;">Copyright 2022 (Achmad Fahresya Rayhannur_1202204161_SI4408)</button>
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">        
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Achmad Fahresya Rayhannur<br>
+                                        1202204161<br>
+                                        SI4408</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div> 
-            </div>
-        </section>
-    </body>
-</html>
+                    </div> 
+                </div>
+            </section>
+        </body>
+    </html>
