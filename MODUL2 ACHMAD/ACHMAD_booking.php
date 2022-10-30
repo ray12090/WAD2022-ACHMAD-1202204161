@@ -16,11 +16,11 @@
                     <ul class="navbar-nav">
                         <li class="nav-item active">
                             <!-- NavBar "Home" -->
-                            <a class="nav-link" href="index.php">Home</a>
+                            <a class="nav-link" href="ACHMAD_home.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <!-- NavBar "Booking" -->
-                            <a class="nav-link" href="booking.php">Booking</a>
+                            <a class="nav-link" href="ACHMAD_booking.php">Booking</a>
                         </li>
                     </ul>
                 </div>
@@ -115,7 +115,7 @@
                     <!-- Submit button -->
                     <div class="mb-3">
                         <div class="col-sm-12 py-3">
-                            <button type="submit" formaction="hasilBooking.php" class="btn btn-outline-primary btn-center" style="width:50%;  margin: 0; top: 75%; left: 75%; -ms-transform: translate(-10%, -10%); transform: translate(30%, 25%);">Book</button>
+                            <button type="submit" formaction="ACHMAD_mybooking.php" class="btn btn-outline-primary btn-center" style="width:50%;  margin: 0; top: 75%; left: 75%; -ms-transform: translate(-10%, -10%); transform: translate(30%, 25%);">Book</button>
                         </div>
                     </div>
                 </form>
