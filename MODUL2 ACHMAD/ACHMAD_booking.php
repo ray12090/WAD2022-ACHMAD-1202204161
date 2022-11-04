@@ -41,7 +41,7 @@
                         alt="" width="640" height="360" class="<?php echo !isset($_POST["inputMobil"]) ? "d-none" : ""?>">
                     </div>
                     <!-- Form -->
-                    <form action="" method="" class="row col booking-form">
+                    <form action="" method="POST" class="row col booking-form">
                         <!-- Name input -->
                         <div class="mb-3">
                             <label class="col-sm-2 col-form-label">Name</label>
