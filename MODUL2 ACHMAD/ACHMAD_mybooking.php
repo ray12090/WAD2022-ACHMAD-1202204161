@@ -64,7 +64,7 @@
                                 // Converting inputDuration
                                 $inputDurationDays = "+ " . $_POST["inputDuration"] . " days";
                                 // Merging inputDate with inputDurations
-                                $checkOutDate = date("Y-m-d", strtotime($_POST["inputDate"] . $inputDurationDays))
+                                $checkOutDate = date("Y-m-d", strtotime($_POST["inputDate"] . $inputDurationDays));
                                 // Display check out date 
                                 echo (isset($_POST["inputDuration"]) && $_POST["inputDuration"] != "") ? date('Y-m-d H:i:s', strtotime($checkOutDate . " " . $_POST["inputWaktu"])) : "";
                             ?>

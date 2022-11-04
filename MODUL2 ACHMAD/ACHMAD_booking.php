@@ -82,7 +82,7 @@
                                     <!-- Brio -->
                                     <option value="Brio" <?php echo (isset($_POST["inputMobil"]) && $_POST["inputMobil"] == "Brio") ? "selected" : ""?>>Brio</option>
                                     <!-- Jazz -->
-                                    <option value="Jazz" <?php echo (iset($_POST["inputMobil"]) && $_POST["inputMobil"] == "Jazz") ? "selected" : ""?>>Jazz</option>
+                                    <option value="Jazz" <?php echo (isset($_POST["inputMobil"]) && $_POST["inputMobil"] == "Jazz") ? "selected" : ""?>>Jazz</option>
                                 </select>
                             </div>
                         </div>

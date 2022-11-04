@@ -15,11 +15,11 @@
                     <ul class="navbar-nav">
                         <li class="nav-item active">
                             <!-- NavBar "Home" -->
-                            <a class="nav-link" href="index.php">Home</a>
+                            <a class="nav-link" href="ACHMAD_home.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <!-- NavBar "Booking" -->
-                            <a class="nav-link" href="booking.php">Booking</a>
+                            <a class="nav-link" href="ACHMAD_booking.php">Booking</a>
                         </li>
                     </ul>
                 </div>
@@ -44,7 +44,7 @@
                             <p style="color:blue; font-size:15px; font-weight:bold">Matic</p>
                         </div>
                             <div class="card-footer">
-                                <a href="booking.php"><button type="button" class="btn btn-primary btn-block"style="width:30%">Book Now</button></a>
+                                <a href="ACHMAD_booking.php"><button type="button" class="btn btn-primary btn-block"style="width:30%">Book Now</button></a>
                             </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                             <p style="color:blue; font-size:15px; font-weight:bold">Matic</p>
                         </div>
                             <div class="card-footer">
-                                <a href="booking.php"><button type="button" class="btn btn-primary btn-block"style="width:30%">Book Now</button></a>
+                                <a href="ACHMAD_booking.php"><button type="button" class="btn btn-primary btn-block"style="width:30%">Book Now</button></a>
                             </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                             <p style="color:blue; font-size:15px; font-weight:bold">Matic</p>
                         </div>
                             <div class="card-footer">
-                                <a href="booking.php"><button type="button" class="btn btn-primary btn-block"style="width:30%">Book Now</button></a>
+                                <a href="ACHMAD_booking.php"><button type="button" class="btn btn-primary btn-block"style="width:30%">Book Now</button></a>
                             </div>
                     </div>
                 </div>
