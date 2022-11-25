@@ -54,13 +54,13 @@
 
 /* === Add Body === */
 
-.title-desc {
-
+.title-add {
+    margin-left: 10%;
 }
 
 /* form */
-.form-input {
-    padding-left: 10%;
+.form-group {
+    margin-left: 10%;
 }
 
 .foto {
@@ -74,4 +74,13 @@
 
 .submit-btn {
     width: 20%;
+}
+
+/* === List Car Body ==== */
+.detail-btn {
+    border-radius: 50%;
+}
+
+.delete-btn {
+    border-radius: 50%;
 }

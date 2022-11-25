@@ -5,9 +5,9 @@
 </head>
 
 <body>
-    <!-- Home -->
+    <!-- Home Content -->
     <div class="container-fluid row" id="home">
-        <!-- Body -->
+        <!-- Left Body -->
         <div class="col">
             <h1 class="welcome">Selamat Datang Di Show Room Rayhan</h1>
             <p class="lacus">At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.</p>
