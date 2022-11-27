@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar  */
+.navbar-nav {
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-around;
+    width: 12%;
+}
+
+.text-secondary { 
+    color: #E0E0E0;
+}
+
+/* === Home Body === */
+
+#home {
+    margin-top: 7%;
+    padding-left: 5%;
+}
+
+/* body left */
+.welcome {
+    width: 55%;
+    margin-top: 8%;
+}
+
+.lacus {
+    width: 70%;
+}
+
+.Mycar {
+    width: 20%;
+}
+
+.nama {
+    margin-left: 5%;
+    font-size: 75%;
+}
+
+.ead-container {
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.ead-logo {
+    width: 10%;
+    height: 15%;
+}
+
+/* === Add Body === */
+
+.title-add {
+    margin-left: 10%;
+}
+
+/* form */
+.form-group {
+    margin-left: 10%;
+}
+
+.foto {
+    border: 2px solid black;
+    padding-left: 20%;
+}
+
+.submit-container {
+    width: 20%;
+}
+
+.submit-btn {
+    width: 20%;
+}
+
+/* === List Car Body ==== */
+.detail-btn {
+    border-radius: 50%;
+}
+
+.delete-btn {
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
