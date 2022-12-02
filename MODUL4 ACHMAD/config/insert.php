@@ -23,7 +23,7 @@
         $id_mobil_sekarang = $jumlah_mobil+1;
 
         // do query to mysql
-        $query = mysqli_query($connection, "INSERT INTO `showroom_rayhan_table` (id_mobil,nama_mobil,pemilik_mobil,merk_mobil,tanggal_beli,deskripsi,foto_mobil,status_pembayaran) VALUES('$id_mobil_sekarang','$nama_mobil','$nama_pemilik','$merk','$tanggal_beli','$deskripsi','$filename','$status_mobil')");
+        $query = mysqli_query($db, "INSERT INTO `showroom_rayhan_table` (id_mobil,nama_mobil,pemilik_mobil,merk_mobil,tanggal_beli,deskripsi,foto_mobil,status_pembayaran) VALUES('$id_mobil_sekarang','$nama_mobil','$nama_pemilik','$merk','$tanggal_beli','$deskripsi','$filename','$status_mobil')");
 
         // redirect to add pages
         header("Location:/dapa/pages/ListCar-Rayhan.php");

@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS showroom_rayhan_table (
 
 -- create user table
 CREATE TABLE IF NOT EXISTS user (
-    id bigint(20) NOT NULL PRIMARY KEY,
+    id int(255) NOT NULL PRIMARY KEY,
     nama varchar(255) NOT NULL,
     email varchar(255) NOT NULL,
     password varchar(255) NOT NULL,

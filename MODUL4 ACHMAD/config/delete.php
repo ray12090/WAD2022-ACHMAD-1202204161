@@ -10,7 +10,7 @@
         $query_syntax = "DELETE FROM showroom_rayhan_table WHERE id_mobil=$id";
 
         // perform delete
-        $query_delete = mysqli_query($connection, $query_syntax);
+        $query_delete = mysqli_query($db, $query_syntax);
     }
 
     // redirect after delete item

@@ -35,7 +35,7 @@
 
         <!-- Looping car in cards model -->
         <?php 
-            $list_query = mysqli_query($connection, "SELECT * FROM showroom_rayhan_table ORDER BY id_mobil");
+            $list_query = mysqli_query($db, "SELECT * FROM showroom_rayhan_table ORDER BY id_mobil");
 
             while($car_list = mysqli_fetch_array($list_query)) {
         ?> 

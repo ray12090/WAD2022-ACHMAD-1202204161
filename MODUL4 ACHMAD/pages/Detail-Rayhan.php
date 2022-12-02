@@ -3,7 +3,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="../asset/style/index.css" />
-        <link rel="stylesheet" href="../bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
         <!-- get data from database -->
@@ -12,7 +13,7 @@
             $id_detail = $_POST["id_mobil_detail"];
 
             $get_all_data = "SELECT * FROM showroom_rayhan_table ORDER BY id_mobil";
-            $get_all_run = mysqli_query($connection, $get_all_data);
+            $get_all_run = mysqli_query($db, $get_all_data);
 
             // make gloabl variable for data
             global $nama_mobil;

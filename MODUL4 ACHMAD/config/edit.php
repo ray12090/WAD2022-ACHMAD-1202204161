@@ -22,7 +22,7 @@
 
                 // get all file
                 $get_all_data = "SELECT * FROM showroom_rayhan_table ORDER BY id_mobil";
-                $get_all_run = mysqli_query($connection, $get_all_data);
+                $get_all_run = mysqli_query($db, $get_all_data);
 
                 // make global variable for data
                 global $foto;
@@ -38,7 +38,7 @@
 
                 // query for update
                 $query_syntax = "UPDATE showroom_rayhan_table nama_mobil='$nama_mobil', pemilik_mobil='$nama_pemilik', merk_mobil='$merk', tanggal_beli='$tanggal_beli', deskripsi='$deskripsi', status_pembayaran='$status_mobil'";
-                $edit_query = mysqli_query($connection, $query_syntax);
+                $edit_query = mysqli_query($db, $query_syntax);
 
                 // redirect to edit page
                 header("Location:/dapa/pages/Edit-Rayhan.php");
